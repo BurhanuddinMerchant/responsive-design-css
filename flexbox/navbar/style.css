@@ -69,6 +69,10 @@ strong {
 .article-info {
   margin: 2em 0;
 }
+.widget-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 /**
   Layout
         **/
@@ -88,9 +92,14 @@ header {
   background: #f8f8f8;
   padding: 2em 0;
   text-align: center;
-  margin-bottom: 3em;
+  margin-bottom: 3em 0;
 }
-
+footer {
+  background-color: #143774;
+  color: #ffffff;
+  text-align: center;
+  padding: 3em;
+}
 @media (min-width: 675px) {
   .container-flex {
     flex-direction: row;
@@ -191,7 +200,11 @@ nav a:focus {
   display: flex;
   flex-direction: column;
   border-bottom: #c0c0c0 1px solid;
-  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.widget-recent-post:last-child {
+  border: 0;
+  margin: 0;
 }
 .widget-recent-post-title {
   order: 6;
